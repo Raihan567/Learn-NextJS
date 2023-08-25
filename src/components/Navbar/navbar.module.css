@@ -1,0 +1,15 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-weight: bold;
+  font-style: 32px;
+}
+.links{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

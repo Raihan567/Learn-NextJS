@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "./page.module.css";
-const Register = () => {
+const Logs = () => {
   return (
-    <div>Register</div>
+    <div>Logs</div>
   )
 }
 
-export default Register
+export default Logs
