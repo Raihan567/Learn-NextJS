@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <div className={Styles.container}>
       <Link className={Styles.logo} href="/">
-        Logo
+        Brand
       </Link>
       <div className={Styles.links}>
         {links.map(link => (
