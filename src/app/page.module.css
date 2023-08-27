@@ -27,21 +27,7 @@
   object-fit: contain;
   animation: move 3s infinite ease-in-out alternate ;
 }
-.btn {
-  width: 180px;
-  background-color: #194c33;
-  border: none;
-  color: #fff;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-.btn:hover {
-  background: #1e8151;
-}
+
 
 @keyframes move {
   0% {

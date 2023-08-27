@@ -13,6 +13,32 @@
   align-items: center;
   gap: 20px;
 }
+
+.link {
+  position: relative;
+  opacity: 0.75;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #53c28b;
+}
+
+.link::before {
+  width: 0%;
+  bottom: -10px;
+}
+
+.link:hover::before {
+  width: 100%;
+}
 .logout {
   background: #53c28b;
   padding: 10px 15px;

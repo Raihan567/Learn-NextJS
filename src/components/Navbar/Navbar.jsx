@@ -2,6 +2,7 @@
 import Styles from "./navbar.module.css";
 import Link from "next/link";
 import React from "react";
+import Button from "../Button/Button";
 
 const links = [
   {
@@ -44,18 +45,11 @@ const Navbar = () => {
       </Link>
       <div className={Styles.links}>
         {links.map(link => (
-          <Link className={Styles.like} key={link.id} href={link.path}>
+          <Link className={Styles.link} key={link.id} href={link.path}>
             {link.title}
           </Link>
         ))}
-        <button
-          className={Styles.logout}
-          onClick={() => {
-            console.log("Logged Out");
-          }}
-        >
-          Logout
-        </button>
+        <Button text="Signup" url="/" />
       </div>
     </div>
   );
